@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local settings / secrets
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.pem
+*.key
+
+# Local databases
+qdrant_db2/
+qdrant_storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Downloaded documents / generated data / models
+pdf_new/
+mineru_out/
+nvidia_session/
+*.pdf
+*.gguf
+*.safetensors
+
+# Logs
+*.log
+
+/test/
+/test1/
